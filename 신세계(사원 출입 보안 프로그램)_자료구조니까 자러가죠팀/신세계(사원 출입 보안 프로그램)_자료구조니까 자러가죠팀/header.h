@@ -46,3 +46,10 @@ typedef struct DivList {
 	User *userLog;
 } DivList;
 
+
+typedef struct DivList2 {
+	DefaultDivData divData;
+	struct DivList2 *next;
+	User *userLog;
+} DivList2;
+
