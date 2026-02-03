@@ -1,7 +1,8 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
-    "enableLicenseViolations": true,
+    "configExternalURL": "",
+    "projectToken": "",
     "baseBranches": []
   },
   "checkRunSettings": {
@@ -17,5 +18,13 @@
     "workflowRules": {
       "enabled": true
     }
-  }
+  },
+   "imageSettings":{
+       "imageTracing":{
+           "enableImageTracingPR": false,
+           "addRepositoryCoordinate": false,
+           "addDockerfilePath": false,
+           "addMendIdentifier": false
+       }
+   }
 }
